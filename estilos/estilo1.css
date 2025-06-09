@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#formulario {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="website"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  display: inline-block;
+  border: 1px solid #888787;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background: linear-gradient(to bottom, white, #ccc);
+  color: black;
+  padding: 8px 12px;
+  margin: 4px 0;
+  border: 1px solid #a894f6;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 200px;
+}
+
+nav ul li {
+  width: 50%;
+  text-align: center;
+}

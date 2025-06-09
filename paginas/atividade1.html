@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/CSS" href="/estilos/estilo1.css" />
+    <link rel="stylesheet" type="text/css" href="/estilos/layout.css" />
+    <title>Atividade 1</title>
+  </head>
+  <body>
+    <header>
+      <h1></h1>
+    </header>
+    <main>
+      <section>
+        <h2>Deixe um Comentário</h2>
+        <form action="respFormulario.html" method="post" id="formulario">
+          <label for="lbNome">Nome:</label>
+          <input type="text" id="ipNome" name="ipNome" required />
+          <label for="lbEmail">Email:</label>
+          <input type="email" id="ipEmail" name="ipEmail" required />
+          <label for="lbWebsite">Website:</label>
+          <input type="Website" id="ipWebsite" name="ipWebsite" />
+          <label for="lbMotivo">Comentário:</label>
+          <textarea name="taMensagem" id="taMensagem" rows="5"></textarea>
+
+          <p>
+            Obervação: Seu comentário será publicado após passar pelo moderador
+          </p>
+          <input type="submit" value="Enviar comentario" />
+        </form>
+      </section>
+
+      <nav>
+        <ul>
+          <li><a href="/index.html">Voltar</a></li>
+        </ul>
+      </nav>
+    </main>
+
+    <footer>Rodapé da página &copy;2025</footer>
+  </body>
+</html>
